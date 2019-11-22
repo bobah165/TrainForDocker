@@ -9,7 +9,7 @@
 <body>
 
 
-<form action="/passenger/edit" method="post">
+<form action="/DockerForTrain-1.0-SNAPSHOT/passenger/edit" method="post">
 
     <input type="hidden" name="id" value="${passenger.id}">
 

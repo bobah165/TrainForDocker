@@ -22,7 +22,7 @@
     <a class="hiddenanchor" id="tologin"></a>
     <div id="wrapper">
         <div id="login" class="animate form">
-            <form action="/station/add" autocomplete="on" method="post">
+            <form action="/DockerForTrain-1.0-SNAPSHOT/station/add" autocomplete="on" method="post">
                 <h1>Station</h1>
                 <p>
                     <label for="nameStation" class="uname" data-icon="u" > Station Name </label>

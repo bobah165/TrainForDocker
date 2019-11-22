@@ -6,7 +6,7 @@
 </head>
 <body>
 
-<form method="post" action="/findtrain/trainfromstations/">
+<form method="post" action="/DockerForTrain-1.0-SNAPSHOT/findtrain/trainfromstations/">
 
     <label for="stationA">Departure Station</label>
     <input type="text" name="stationA" id="stationA">

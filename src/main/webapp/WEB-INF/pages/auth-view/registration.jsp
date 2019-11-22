@@ -27,7 +27,7 @@
     <div id="wrapper">
         <div id="login" class="animate form">
 
-            <form action="/registration" autocomplete="on" method="post">
+            <form action="/DockerForTrain-1.0-SNAPSHOT/registration" autocomplete="on" method="post">
                 <h1>Registration</h1>
 
                 <p>

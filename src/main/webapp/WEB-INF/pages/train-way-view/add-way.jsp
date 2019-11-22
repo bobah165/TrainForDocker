@@ -10,7 +10,7 @@
 <body>
 
 
-<form action="/way/add" method="post">
+<form action="/DockerForTrain-1.0-SNAPSHOT/way/add" method="post">
 
     <label for="numberWay">Number Way</label>
     <input type="number" name="numberWay" id="numberWay">

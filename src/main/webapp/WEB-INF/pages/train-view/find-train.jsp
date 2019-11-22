@@ -21,7 +21,7 @@
     <a class="hiddenanchor" id="tologin"></a>
     <div id="wrapper">
         <div id="login" class="animate form">
-            <form  action="/findtrain/trainfromstations/" autocomplete="on" method="post">
+            <form  action="/DockerForTrain-1.0-SNAPSHOT/findtrain/trainfromstations/" autocomplete="on" method="post">
                 <h1>Find Train</h1>
                 <p>
                     <label for="stationA" class="uname" data-icon="u" > Departure Station </label>

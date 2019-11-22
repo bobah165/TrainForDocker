@@ -25,7 +25,7 @@
     <a class="hiddenanchor" id="tologin"></a>
     <div id="wrapper">
         <div id="login" class="animate form">
-            <form  action="/passenger/addempl" autocomplete="on" method="post">
+            <form  action="DockerForTrain-1.0-SNAPSHOT/passenger/addempl" autocomplete="on" method="post">
                 <h1>Registration</h1>
                 <p>
                     <label for="username" class="uname" data-icon="u" > Login </label>

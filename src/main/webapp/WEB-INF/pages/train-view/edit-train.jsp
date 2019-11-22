@@ -11,7 +11,7 @@
 <body>
 
 
-<form method="post" action="/train/edit">
+<form method="post" action="/DockerForTrain-1.0-SNAPSHOT/train/edit">
 
     <input type="hidden" name="id" value="${train.id}">
 

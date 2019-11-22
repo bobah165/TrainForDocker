@@ -33,15 +33,15 @@
         <td>${passenger.email}</td>
         <td>${passenger.user}</td>
         <td>
-            <a href="/passenger/edit/${passenger.id}">edit</a>
-            <a href="/passenger/delete/${passenger.id}">delete</a>
+            <a href="/DockerForTrain-1.0-SNAPSHOT/passenger/edit/${passenger.id}">edit</a>
+            <a href="/DockerForTrain-1.0-SNAPSHOT/passenger/delete/${passenger.id}">delete</a>
         </td>
     </tr>
     </c:forEach>
 </table>
 
 <h2>ADD</h2>
-<c:url value="/passenger/add" var="addPass" />
+<c:url value="/DockerForTrain-1.0-SNAPSHOT/passenger/add" var="addPass" />
 <a href="${addPass}">Add new Passenger</a>
 
 </body>

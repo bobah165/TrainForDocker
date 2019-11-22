@@ -21,19 +21,19 @@
         <ul class="menu">
             <li><a href="">Train Info</a>
                 <ul class="submenu">
-                    <li><a href="/train/">Train List</a>
-                    <li><a href="/train/add">Add Train</a>
+                    <li><a href="/DockerForTrain-1.0-SNAPSHOT/train/">Train List</a>
+                    <li><a href="/DockerForTrain-1.0-SNAPSHOT/train/add">Add Train</a>
                 </ul>
             </li>
             <li><a href="">Station Info</a>
                 <ul class="submenu">
-                    <li><a href="/station/">Station List</a>
-                    <li><a href="/station/add/">Add Station</a>
+                    <li><a href="/DockerForTrain-1.0-SNAPSHOT/station/">Station List</a>
+                    <li><a href="/DockerForTrain-1.0-SNAPSHOT/station/add/">Add Station</a>
                 </ul>
             </li>
 
-            <li><a href="/passenger/addempl">Add Employee</a> </li>
-            <li id="quit"><a href="/logout">Quit</a> </li>
+            <li><a href="/DockerForTrain-1.0-SNAPSHOT/passenger/addempl">Add Employee</a> </li>
+            <li id="quit"><a href="/DockerForTrain-1.0-SNAPSHOT/logout">Quit</a> </li>
         </ul>
     </nav>
 </header>

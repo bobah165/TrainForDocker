@@ -6,7 +6,7 @@
 </head>
 <body>
 
-<form action="/station/edit" method="post">
+<form action="/DockerForTrain-1.0-SNAPSHOT/station/edit" method="post">
 
     <input type="hidden" name="id" value="${station.id}">
 

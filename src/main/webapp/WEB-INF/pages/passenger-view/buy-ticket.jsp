@@ -23,7 +23,7 @@
     <a class="hiddenanchor" id="tologin"></a>
     <div id="wrapper">
         <div id="login" class="animate form">
-            <form  action="/train/buy/" autocomplete="on" method="post">
+            <form  action="/DockerForTrain-1.0-SNAPSHOT/train/buy/" autocomplete="on" method="post">
                 <h1>Passenger Information</h1>
 
 

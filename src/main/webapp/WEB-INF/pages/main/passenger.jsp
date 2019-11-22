@@ -18,9 +18,9 @@
     <div class="top_bar"></div>
     <nav>
         <ul class="menu">
-            <li><a href="/findtrain/trainfromstations/">find train</a> </li>
-            <li><a href="/station/findtrains/">Station Schedule</a> </li>
-            <li><a href="/logout">Quit</a> </li>
+            <li><a href="/DockerForTrain-1.0-SNAPSHOT/findtrain/trainfromstations/">find train</a> </li>
+            <li><a href="/DockerForTrain-1.0-SNAPSHOT/station/findtrains/">Station Schedule</a> </li>
+            <li><a href="/DockerForTrain-1.0-SNAPSHOT/logout">Quit</a> </li>
         </ul>
     </nav>
 </header>

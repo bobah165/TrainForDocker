@@ -27,15 +27,15 @@
             <td>${way.daysInWay}</td>
 
             <td>
-                <a href="/way/edit/${way.id}">edit</a>
-                <a href="/way/delete/${way.id}">delete</a>
+                <a href="/DockerForTrain-1.0-SNAPSHOT/way/edit/${way.id}">edit</a>
+                <a href="/DockerForTrain-1.0-SNAPSHOT/way/delete/${way.id}">delete</a>
             </td>
         </tr>
     </c:forEach>
 </table>
 
 <h2>ADD</h2>
-<c:url value="/way/add" var="add" />
+<c:url value="DockerForTrain-1.0-SNAPSHOT/way/add" var="add" />
 <a href="${add}">Add new Way</a>
 
 </body>

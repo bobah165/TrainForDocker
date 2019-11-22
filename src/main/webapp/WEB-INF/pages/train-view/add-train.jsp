@@ -19,7 +19,7 @@
     <a class="hiddenanchor" id="tologin"></a>
     <div id="wrapper">
         <div id="login" class="animate form">
-            <form  action="/train/add" autocomplete="on" method="post">
+            <form  action="/DockerForTrain-1.0-SNAPSHOT/train/add" autocomplete="on" method="post">
                 <h1>Train</h1>
                 <p>
                     <label for="trainNumber" class="uname" data-icon="u" > Train Number </label>

@@ -34,13 +34,13 @@
             <td>${train.countSits}</td>
             <td>${train.departureDate}</td>
             <td>
-                <button class=""><a href="/train/passfromtrain/${train.id}" class="btn">Passengers</a></button>
+                <button class=""><a href="/DockerForTrain-1.0-SNAPSHOT/train/passfromtrain/${train.id}" class="btn">Passengers</a></button>
             </td>
             <td>
-               <button><a href="/train/edit/${train.id}" class="btn">edit</a></button>
+               <button><a href="/DockerForTrain-1.0-SNAPSHOT/train/edit/${train.id}" class="btn">edit</a></button>
             </td>
             <td>
-                <button><a href="/train/delete/${train.id}" class="btn">delete</a></button>
+                <button><a href="/DockerForTrain-1.0-SNAPSHOT/train/delete/${train.id}" class="btn">delete</a></button>
             </td>
         </tr>
     </c:forEach>
@@ -49,7 +49,7 @@
     <tr>
         <td colspan="8">
             <c:forEach begin="${1}" end="${pageCount}" step="1" varStatus="i">
-                <c:url value="/train/" var="url">
+                <c:url value="/DockerForTrain-1.0-SNAPSHOT/train/" var="url">
                     <c:param name="page" value="${i.index}"/>
                 </c:url>
                 <a href="${url}">${i.index}</a>

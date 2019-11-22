@@ -21,7 +21,7 @@
     <a class="hiddenanchor" id="tologin"></a>
     <div id="wrapper">
         <div id="login" class="animate form">
-            <form  action="/login/process/" autocomplete="on" method="post">
+            <form  action="/DockerForTrain-1.0-SNAPSHOT/login/process/" autocomplete="on" method="post">
                 <h1>Entrance</h1>
                 <p>
                     <label for="username" class="uname" data-icon="u" > Login </label>
@@ -32,7 +32,7 @@
                     <input id="password" name="password" required="required" type="password"  />
                 </p>
                 <p class="btn">
-                    <button><a href="/registration/" class="btn"> Registration </a></button>
+                    <button><a href="/DockerForTrain-1.0-SNAPSHOT/registration/" class="btn"> Registration </a></button>
                 </p>
                 <p class="login button">
                     <input type="submit" value="Enter" />

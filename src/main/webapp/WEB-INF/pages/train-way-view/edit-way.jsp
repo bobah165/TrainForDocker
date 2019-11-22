@@ -10,7 +10,7 @@
 <body>
 
 
-<form action="/way/edit" method="post">
+<form action="/DockerForTrain-1.0-SNAPSHOT/way/edit" method="post">
 
     <input type="hidden" name="id" value="${way.id}">
 
