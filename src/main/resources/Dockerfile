@@ -1,0 +1,6 @@
+#FROM postrges:9
+#MAINTAINER lpradel
+#
+#ENV POSTGRES_USER postgres
+#ENV POSTGRES_PASSWORD 1
+#ENV POSTGRES_DB test
