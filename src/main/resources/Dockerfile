@@ -1,6 +1,3 @@
-#FROM postrges:9
-#MAINTAINER lpradel
-#
-#ENV POSTGRES_USER postgres
-#ENV POSTGRES_PASSWORD 1
-#ENV POSTGRES_DB test
+FROM postgres:11.1
+#COPY schema.sql /docker-entrypoint-initdb.d/
+#COPY data.sql /docker-entrypoint-initdb.d/

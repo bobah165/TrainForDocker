@@ -49,7 +49,7 @@
     <tr>
         <td colspan="8">
             <c:forEach begin="${1}" end="${pageCount}" step="1" varStatus="i">
-                <c:url value="/DockerForTrain-1.0-SNAPSHOT/train/" var="url">
+                <c:url value ="/train/" var="url">
                     <c:param name="page" value="${i.index}"/>
                 </c:url>
                 <a href="${url}">${i.index}</a>
